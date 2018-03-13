@@ -10,12 +10,12 @@ public class GroupIteration1Test {
 
 	@Before
 	public void setup() {
-		
+		//TODO Create setup method for each test.
 	}
 
 	@After
 	public void destroy() {
-		//TODO Possibly create destroy class to free mem.
+		//TODO Possibly create destroy class to free mem. Probably won't need this.
 	}
 
 	@Test
