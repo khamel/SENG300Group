@@ -31,14 +31,10 @@ public class Test {
 	
 	public static void main(String[] args) 
 	{
-		Test(args);
-	}
-
-	public Test(String args) {
 		getUserInput();
 		String source = convertSourceToString();
 		parseSource(source);
-		printResults();
+		printResult();
 	}
 
 	/*
